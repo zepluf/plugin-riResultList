@@ -1,6 +1,7 @@
 <?php
 
 namespace plugins\riResultList;
+
 class Paginator{
     protected 
         $record_per_page = 10,
