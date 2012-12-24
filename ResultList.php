@@ -2,8 +2,6 @@
 
 namespace plugins\riResultList;
 
-use plugins\riCore\Object;
-
 /**
  * A (result) list that handles lists spanning multiple pages.
  *
@@ -17,7 +15,7 @@ use plugins\riCore\Object;
  * @author DerManoMann <mano@zenmagick.org>
  * @package org.zenmagick.mvc.resultlist
  */
-class ResultList extends Object {
+class ResultList extends \Zepluf\Bundle\StoreBundle\Object {
 	protected $resultSource_;
     protected $sorters_;
     protected $filters_;

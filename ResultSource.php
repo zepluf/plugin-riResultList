@@ -1,9 +1,7 @@
 <?php
 namespace plugins\riResultList;
 
-use plugins\riCore\Object;
-
-class ResultSource extends Object implements ResultSourceInterface{
+class ResultSource extends \Zepluf\Bundle\StoreBundle\Object implements ResultSourceInterface{
     protected $resultList_, $model, $from, $select;
     /**
      * Set the corresponding result list.

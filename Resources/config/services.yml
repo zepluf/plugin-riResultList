@@ -1,0 +1,10 @@
+services:
+  riresultlist.result_list:
+    class: plugins\riResultList\ResultList
+    scope: prototype
+  riresultlist.result_source:
+    class: plugins\riResultList\ResultSource
+    scope: prototype
+  riresultlist.paginator:
+    class: plugins\riResultList\Paginator
+    scope: prototype
